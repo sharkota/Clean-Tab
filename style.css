@@ -62,7 +62,7 @@ input{
 }
 
 button{
-  border-radius: 6px;
+    border-radius: 6px;
     color: var(--text-normal);
     background-color: transparent;
     border: none;
@@ -92,6 +92,10 @@ button{
     width: 600px;
     min-height: 400px;
     overflow: hidden;
+}
+
+.cards figure{
+  transition-duration: 0.5s;
 }
 
 .cards figure:hover{
